@@ -1,6 +1,8 @@
 # generator-express-azuread [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Scaffold a NodeJS + Express web application with AzureAD authentication built-in
 
+![logos](./media/aadnode.png)
+
 ## Introduction
 
 This Yeoman generator scaffolds out an entire Express 4 application, complete with authentication against [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) using [OpenID Connect](https://en.wikipedia.org/wiki/OpenID_Connect), [PassportJS](http://passportjs.org/) and [passport-azure-ad](https://github.com/AzureAD/passport-azure-ad).
