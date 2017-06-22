@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Steven Follis",
+      "authorEmail": "steven_follis@live.com",
+      "authorUrl": "http://stevenfollis.com"
+    }
+  }
+}

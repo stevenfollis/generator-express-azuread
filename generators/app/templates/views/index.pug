@@ -1,0 +1,20 @@
+extends layout
+
+block content
+
+  .jumbotron.jumbotron-fluid
+
+    .container
+
+      h1.display-3 Howdy, world!
+        
+      p.lead This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.  
+      
+      hr.my-4
+      
+      if user
+        a.btn.btn-outline-primary(role='button', href='/profile')= `View Profile for ${user.displayName}`
+
+      else
+        p Authentication is provided by AzureAD. Click <strong>Login</strong> in the top right corner to get started
+    

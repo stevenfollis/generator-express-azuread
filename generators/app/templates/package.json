@@ -1,0 +1,30 @@
+{
+  "name": "<%= name %>",
+  "description": "Express application preconfigured for authentication via AzureAD",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.3.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.3",
+    "express-session": "^1.14.1",
+    "passport": "^0.3.2",
+    "passport-azure-ad": "^3.0.7",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}

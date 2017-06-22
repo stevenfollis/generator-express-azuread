@@ -1,0 +1,13 @@
+extends layout
+
+block content
+
+    .container
+        h1.display-4 User Profile
+
+        if attributes
+            table.table.table-striped.table-bordered
+                each key, value in attributes
+                    tr
+                        th= value
+                        td= key

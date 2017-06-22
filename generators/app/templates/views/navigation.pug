@@ -1,0 +1,32 @@
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded
+  button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+      
+  a.navbar-brand(href='/') <%= name %>
+      
+  #navbarSupportedContent.collapse.navbar-collapse
+    
+    // Left Nav
+    ul.navbar-nav.mr-auto
+      li.nav-item.active
+        a.nav-link(href='#') Home 
+          span.sr-only (current)
+      |       
+      li.nav-item
+        a.nav-link(href='#') Link
+      
+      li.nav-item
+        a.nav-link.disabled(href='#') Disabled
+      
+    // Right Nav
+    ul.navbar-nav.my-2.my-lg-0
+      if user
+        li.nav-item.dropdown
+          a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Hi, #{user.displayName}
+          .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+            a.dropdown-item(href='/profile') Profile
+            a.dropdown-item(href='/logout') Logout
+      else
+        li.nav-item
+          a.nav-link(href='/login') Login
+
