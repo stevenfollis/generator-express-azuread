@@ -1,6 +1,6 @@
 {
   "name": "generator-express-azuread",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Scaffold a NodeJS + Express web application with AzureAD authentication built-in",
   "homepage": "http://github.com/stevenfollis/generator-express-azuread",
   "author": {
